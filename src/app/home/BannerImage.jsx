@@ -7,7 +7,7 @@ function BannerImage() {
             <div>
                 <Image className='rounded-s-3xl' src={BannerImg} alt="" />
             </div>
-            <div className='flex justify-between items-center flex-col sm:flex-row gap-5 sm:gap-0'>
+            <div className='flex justify-between  flex-col sm:flex-row gap-5 sm:gap-0'>
                 <div className="flex items-center gap-3">
                     <Image src={avoter} className='w-16' alt="" />
                     <div className="">
@@ -15,10 +15,10 @@ function BannerImage() {
                     <p>12 June 2023</p>
                     </div>
                 </div>
-                <div className="flex sm:gap-5 gap-2">
+                <div className="flex sm:gap-5 gap-2 justify-between">
                   {
                     [...Array(4)].map( (number, i) =><div key={i}>
-                      <button className="border sm:px-4 px-2 py-2 rounded-full">Design</button>
+                      <button className="border sm:px-4 px-2 py-1 rounded-full">Design</button>
                     </div>
                   )
                   }
