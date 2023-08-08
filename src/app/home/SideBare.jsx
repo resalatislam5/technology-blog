@@ -19,7 +19,7 @@ function SideBare() {
                     </div>)
                     }
             </div>
-            <Link className='text-[#3B3F7E] flex gap-2' href="#">See all blog post <Image src={rightTopArrowColor} className='w-5' alt="" /></Link>
+            <Link className='text-[#3B3F7E] flex gap-2' href="https://catalysers-blog-git-main-resalatislam5.vercel.app/">See all blog post <Image src={rightTopArrowColor} className='w-5' alt="" /></Link>
         </div>
     );
 }
