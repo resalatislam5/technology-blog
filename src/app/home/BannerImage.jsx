@@ -17,8 +17,8 @@ function BannerImage() {
                 </div>
                 <div className="flex sm:gap-5 gap-2 justify-between">
                   {
-                    [...Array(4)].map( (number, i) =><div key={i}>
-                      <button className="border sm:px-3 px-2 py-1 rounded-full">Design</button>
+                    [...Array(3)].map( (number, i) =><div key={i}>
+                      <button className="sm:px-3 px-2 py-1 rounded-full">#Design</button>
                     </div>
                   )
                   }
